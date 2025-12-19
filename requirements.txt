@@ -1,0 +1,11 @@
+torch
+torchvision
+scikit-learn
+scikit-image
+aiogram
+python-dotenv
+matplotlib
+pandas
+joblib
+tqdm
+Pillow
