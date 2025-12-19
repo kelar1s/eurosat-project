@@ -42,3 +42,10 @@ def analyze_dataset(data_path: str):
     plt.close()
 
     return df
+
+if __name__ == "__main__":
+    # Путь к папке с данными EuroSAT
+    data_path = "./data/"
+    
+    df = analyze_dataset(data_path)
+    print("\n✅ Анализ завершен. Диаграмма сохранена в eda_distribution.png")
