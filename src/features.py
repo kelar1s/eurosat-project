@@ -1,9 +1,10 @@
 from skimage.feature import hog
 import numpy as np
 
+
 def extract_hog_features(img_tensor):
-    """
-    Преобразует тензор изображения в numpy и вычисляет HOG-признаки.
+    """ 
+    Преобразует тензор изображения в numpy и вычисляет HOG-признаки. (SVM)
     """
     img_np = img_tensor.permute(1, 2, 0).numpy()
     features = hog(img_np, orientations=8,

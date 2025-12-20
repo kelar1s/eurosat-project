@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from PIL import Image
 
+# Exploratory Data Analysis
+
 def analyze_dataset(data_path: str):
     """
     Полная EDA набора данных с изображениями:
